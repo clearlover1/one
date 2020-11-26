@@ -1,0 +1,25 @@
+# YAML Demo
+
+date:
+  format: yyyy-MM-dd
+
+school:
+  schoolName: pipixiaxiaoxue
+  schoolmaster:
+    name: pdd
+    age: 49
+    email: pdd@163.com
+  createDate: 2019/03/09
+  teachers:
+    - name: xiaoma
+      age: 19
+      test: [123, 321]
+      scores: [123,456]
+    - name: uzi
+      age: 20
+      test: [123, 321]
+      scores: [123,456]
+  studentCount: 500
+  # 更改成 pipixia@xwsoft，若使用默认的 @Email 注解，仍然成功加载。
+  # 可以使用自定义正则 @Email(regexp="^\w{6,}@([a-z0-9A-Z]+\.)+[a-zA-Z]{2,}$")
+  email: pipixia@xwsoft.com
