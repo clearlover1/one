@@ -1,5 +1,7 @@
 pipeline {
-    agent anystages {
+    agent any
+
+    stages {
         stage('Compile') {
             steps {
                 echo "Compiling..."
